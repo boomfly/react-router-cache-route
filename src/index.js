@@ -1,6 +1,6 @@
 export { CacheRoute as default } from './components/CacheRoute'
-export CacheRoute from './components/CacheRoute'
-export CacheSwitch from './components/CacheSwitch'
+export { CacheRoute } from './components/CacheRoute'
+export { CacheSwitch } from './components/CacheSwitch'
 export {
   dropByCacheKey,
   refreshByCacheKey,
@@ -9,4 +9,5 @@ export {
   getCachingComponents
 } from './core/manager'
 export { useDidCache, useDidRecover } from './core/context'
+
 
